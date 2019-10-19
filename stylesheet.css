@@ -1,0 +1,41 @@
+h1{
+    text-shadow: #ffb6c1;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: peru;
+
+}
+h2{
+    text-align: center;
+    font-size: 1.875em;
+}
+h2, h3, h4, p, ol, li, a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p, h4, a, h3{
+    border-left: 10px solid orange;
+}
+li{
+    text-decoration: underline;
+    font-size: 1.1em;
+    
+}
+body{
+    background-color: ivory;
+    background-image: url("vis-frontend-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    background-blend-mode: color;
+}
+#borderimg{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url("border.png") 30 stretch;
+}
+#borderimg1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url("border.png") 50 round;
+  }
